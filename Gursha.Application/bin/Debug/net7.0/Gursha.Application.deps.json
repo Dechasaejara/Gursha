@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Gursha.Application/1.0.0": {
+        "dependencies": {
+          "Gursha.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Gursha.Application.dll": {}
+        }
+      },
+      "Gursha.Domain/1.0.0": {
+        "runtime": {
+          "Gursha.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Gursha.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Gursha.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

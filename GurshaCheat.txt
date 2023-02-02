@@ -1,0 +1,23 @@
+# SETUP PROJECT
+    # Create solution
+
+    dotnet new sln -o Gursha
+    dotnet new webapi -n Gursha.Api
+    dotnet new classlib -n Gursha.Domain
+    dotnet new classlib -n Gursha.Application
+    dotnet new classlib -n Gursha.Infrastructure
+    dotnet new classlib -n Gursha.Contracts
+    # Add layers to Build
+    
+dotnet sln add  **/*.csproj && dotnet build
+    # Add layers Dependecy
+
+    dotnet add Gursha.Api reference Gursha.Application
+    dotnet add Gursha.Infrastructure reference Gursha.Application
+    dotnet add Gursha.Contracts reference Gursha.Application
+    dotnet add Gursha.Application reference Gursha.Domain && code . && exit
+
+    # Clear Project
+    rm  **/Class1.cs
+
+
