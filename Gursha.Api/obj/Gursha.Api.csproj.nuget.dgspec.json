@@ -28,6 +28,12 @@
             "projectReferences": {
               "/Users/decha/devenv/gursha/Gursha.Application/Gursha.Application.csproj": {
                 "projectPath": "/Users/decha/devenv/gursha/Gursha.Application/Gursha.Application.csproj"
+              },
+              "/Users/decha/devenv/gursha/Gursha.Contracts/Gursha.Contracts.csproj": {
+                "projectPath": "/Users/decha/devenv/gursha/Gursha.Contracts/Gursha.Contracts.csproj"
+              },
+              "/Users/decha/devenv/gursha/Gursha.Infrastructure/Gursha.Infrastructure.csproj": {
+                "projectPath": "/Users/decha/devenv/gursha/Gursha.Infrastructure/Gursha.Infrastructure.csproj"
               }
             }
           }
@@ -101,6 +107,69 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/decha/devenv/gursha/Gursha.Contracts/Gursha.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/decha/devenv/gursha/Gursha.Contracts/Gursha.Contracts.csproj",
+        "projectName": "Gursha.Contracts",
+        "projectPath": "/Users/decha/devenv/gursha/Gursha.Contracts/Gursha.Contracts.csproj",
+        "packagesPath": "/Users/decha/.nuget/packages/",
+        "outputPath": "/Users/decha/devenv/gursha/Gursha.Contracts/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/decha/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/decha/devenv/gursha/Gursha.Application/Gursha.Application.csproj": {
+                "projectPath": "/Users/decha/devenv/gursha/Gursha.Application/Gursha.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
           "imports": [
             "net461",
             "net462",
@@ -154,6 +223,69 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/decha/devenv/gursha/Gursha.Infrastructure/Gursha.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/decha/devenv/gursha/Gursha.Infrastructure/Gursha.Infrastructure.csproj",
+        "projectName": "Gursha.Infrastructure",
+        "projectPath": "/Users/decha/devenv/gursha/Gursha.Infrastructure/Gursha.Infrastructure.csproj",
+        "packagesPath": "/Users/decha/.nuget/packages/",
+        "outputPath": "/Users/decha/devenv/gursha/Gursha.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/decha/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/decha/devenv/gursha/Gursha.Application/Gursha.Application.csproj": {
+                "projectPath": "/Users/decha/devenv/gursha/Gursha.Application/Gursha.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

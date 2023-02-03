@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "XHL8/EI3YgQ1bvnIUw72C5FFNkfDY5PLJoZWwTdjj0XKTx6w8MNx9wjUiI8rPoXq0gLGAMrP4UeQ3DIZf8PGGQ==",
+  "dgSpecHash": "nmAVS25sOTHGYP/YFasjU/76ipCPRt7P/KDhw5m4MyWJGLSCzUPaQbVBXV7lZtUWAUW8QUsONoPqnOF2V/lmJQ==",
   "success": true,
   "projectFilePath": "/Users/decha/devenv/gursha/Gursha.Infrastructure/Gursha.Infrastructure.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/decha/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -36,7 +36,6 @@
 /Users/decha/devenv/gursha/Gursha.Api/obj/Debug/net7.0/Gursha.Api.AssemblyInfoInputs.cache
 /Users/decha/devenv/gursha/Gursha.Api/obj/Debug/net7.0/Gursha.Api.AssemblyInfo.cs
 /Users/decha/devenv/gursha/Gursha.Api/obj/Debug/net7.0/Gursha.Api.csproj.CoreCompileInputs.cache
-/Users/decha/devenv/gursha/Gursha.Api/obj/Debug/net7.0/Gursha.Api.MvcApplicationPartsAssemblyInfo.cs
 /Users/decha/devenv/gursha/Gursha.Api/obj/Debug/net7.0/Gursha.Api.MvcApplicationPartsAssemblyInfo.cache
 /Users/decha/devenv/gursha/Gursha.Api/obj/Debug/net7.0/Gursha.Api.dll
 /Users/decha/devenv/gursha/Gursha.Api/obj/Debug/net7.0/refint/Gursha.Api.dll
@@ -48,11 +47,6 @@
 /Users/decha/devenv/gursha/Gursha.Api/bin/Debug/net7.0/Gursha.Api.runtimeconfig.json
 /Users/decha/devenv/gursha/Gursha.Api/bin/Debug/net7.0/Gursha.Api.dll
 /Users/decha/devenv/gursha/Gursha.Api/bin/Debug/net7.0/Gursha.Api.pdb
-/Users/decha/devenv/gursha/Gursha.Api/bin/Debug/net7.0/Microsoft.AspNetCore.OpenApi.dll
-/Users/decha/devenv/gursha/Gursha.Api/bin/Debug/net7.0/Microsoft.OpenApi.dll
-/Users/decha/devenv/gursha/Gursha.Api/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll
-/Users/decha/devenv/gursha/Gursha.Api/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
-/Users/decha/devenv/gursha/Gursha.Api/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
 /Users/decha/devenv/gursha/Gursha.Api/bin/Debug/net7.0/Gursha.Application.dll
 /Users/decha/devenv/gursha/Gursha.Api/bin/Debug/net7.0/Gursha.Domain.dll
 /Users/decha/devenv/gursha/Gursha.Api/bin/Debug/net7.0/Gursha.Application.pdb
@@ -68,3 +62,7 @@
 /Users/decha/devenv/gursha/Gursha.Api/obj/Debug/net7.0/Gursha.Api.csproj.CopyComplete
 /Users/decha/devenv/gursha/Gursha.Api/obj/Debug/net7.0/Gursha.Api.genruntimeconfig.cache
 /Users/decha/devenv/gursha/Gursha.Api/obj/Debug/net7.0/ref/Gursha.Api.dll
+/Users/decha/devenv/gursha/Gursha.Api/bin/Debug/net7.0/Gursha.Contracts.dll
+/Users/decha/devenv/gursha/Gursha.Api/bin/Debug/net7.0/Gursha.Contracts.pdb
+/Users/decha/devenv/gursha/Gursha.Api/bin/Debug/net7.0/Gursha.Infrastructure.dll
+/Users/decha/devenv/gursha/Gursha.Api/bin/Debug/net7.0/Gursha.Infrastructure.pdb

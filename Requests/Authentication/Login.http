@@ -1,0 +1,12 @@
+# This is Http Request to login method in AuthenticatonController
+@host = http://localhost:5222
+
+POST {{host}}/auth/login
+Content-Type: application/json
+
+{
+    "email":"aroneshetu@gmail.com",
+    "password":"aron@123"
+}
+
+# TODO other Request 

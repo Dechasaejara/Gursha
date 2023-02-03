@@ -8,6 +8,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Gursha.Application\Gursha.Application.csproj" />
+    <ProjectReference Include="..\Gursha.Contracts\Gursha.Contracts.csproj" />
+    <ProjectReference Include="..\Gursha.Infrastructure\Gursha.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

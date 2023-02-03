@@ -2,17 +2,47 @@
   "version": 3,
   "targets": {
     "net7.0": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
       "Gursha.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Gursha.Domain": "1.0.0"
+          "Gursha.Domain": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
         },
         "compile": {
           "bin/placeholder/Gursha.Application.dll": {}
         },
         "runtime": {
           "bin/placeholder/Gursha.Application.dll": {}
+        }
+      },
+      "Gursha.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Gursha.Application": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Gursha.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Gursha.Contracts.dll": {}
         }
       },
       "Gursha.Domain/1.0.0": {
@@ -24,24 +54,79 @@
         "runtime": {
           "bin/placeholder/Gursha.Domain.dll": {}
         }
+      },
+      "Gursha.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Gursha.Application": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Gursha.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Gursha.Infrastructure.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0": {
+      "sha512": "h3j/QfmFN4S0w4C2A6X7arXij/M/OVw3uQHSOFxnND4DyAzO1F9eMX7Eti7lU/OkSthEE0WzRsfT/Dmx86jzCw==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
     "Gursha.Application/1.0.0": {
       "type": "project",
       "path": "../Gursha.Application/Gursha.Application.csproj",
       "msbuildProject": "../Gursha.Application/Gursha.Application.csproj"
     },
+    "Gursha.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../Gursha.Contracts/Gursha.Contracts.csproj",
+      "msbuildProject": "../Gursha.Contracts/Gursha.Contracts.csproj"
+    },
     "Gursha.Domain/1.0.0": {
       "type": "project",
       "path": "../Gursha.Domain/Gursha.Domain.csproj",
       "msbuildProject": "../Gursha.Domain/Gursha.Domain.csproj"
+    },
+    "Gursha.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Gursha.Infrastructure/Gursha.Infrastructure.csproj",
+      "msbuildProject": "../Gursha.Infrastructure/Gursha.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "Gursha.Application >= 1.0.0"
+      "Gursha.Application >= 1.0.0",
+      "Gursha.Contracts >= 1.0.0",
+      "Gursha.Infrastructure >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -71,6 +156,12 @@
           "projectReferences": {
             "/Users/decha/devenv/gursha/Gursha.Application/Gursha.Application.csproj": {
               "projectPath": "/Users/decha/devenv/gursha/Gursha.Application/Gursha.Application.csproj"
+            },
+            "/Users/decha/devenv/gursha/Gursha.Contracts/Gursha.Contracts.csproj": {
+              "projectPath": "/Users/decha/devenv/gursha/Gursha.Contracts/Gursha.Contracts.csproj"
+            },
+            "/Users/decha/devenv/gursha/Gursha.Infrastructure/Gursha.Infrastructure.csproj": {
+              "projectPath": "/Users/decha/devenv/gursha/Gursha.Infrastructure/Gursha.Infrastructure.csproj"
             }
           }
         }
