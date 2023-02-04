@@ -66,3 +66,7 @@
 /Users/decha/devenv/gursha/Gursha.Api/bin/Debug/net7.0/Gursha.Contracts.pdb
 /Users/decha/devenv/gursha/Gursha.Api/bin/Debug/net7.0/Gursha.Infrastructure.dll
 /Users/decha/devenv/gursha/Gursha.Api/bin/Debug/net7.0/Gursha.Infrastructure.pdb
+/Users/decha/devenv/gursha/Gursha.Api/bin/Debug/net7.0/Microsoft.IdentityModel.Logging.dll
+/Users/decha/devenv/gursha/Gursha.Api/bin/Debug/net7.0/Microsoft.IdentityModel.Tokens.dll
+/Users/decha/devenv/gursha/Gursha.Api/bin/Debug/net7.0/Newtonsoft.Json.dll
+/Users/decha/devenv/gursha/Gursha.Api/bin/Debug/net7.0/System.IdentityModel.Tokens.Jwt.dll
