@@ -1,6 +1,8 @@
 using Gursha.Application.Common.Interfaces.Authentication;
+using Gursha.Application.Common.Interfaces.Persistence;
 using Gursha.Application.Services.Authentication;
 using Microsoft.Extensions.DependencyInjection;
+
 
 namespace Gursha.Application;
 
