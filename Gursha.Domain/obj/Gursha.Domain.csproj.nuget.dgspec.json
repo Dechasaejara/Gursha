@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/decha/devenv/gursha/Gursha.Domain/Gursha.Domain.csproj": {}
+    "C:\\Users\\Decha\\Desktop\\DEV\\DevStarter\\Gursha.Domain\\Gursha.Domain.csproj": {}
   },
   "projects": {
-    "/Users/decha/devenv/gursha/Gursha.Domain/Gursha.Domain.csproj": {
+    "C:\\Users\\Decha\\Desktop\\DEV\\DevStarter\\Gursha.Domain\\Gursha.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/decha/devenv/gursha/Gursha.Domain/Gursha.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Decha\\Desktop\\DEV\\DevStarter\\Gursha.Domain\\Gursha.Domain.csproj",
         "projectName": "Gursha.Domain",
-        "projectPath": "/Users/decha/devenv/gursha/Gursha.Domain/Gursha.Domain.csproj",
-        "packagesPath": "/Users/decha/.nuget/packages/",
-        "outputPath": "/Users/decha/devenv/gursha/Gursha.Domain/obj/",
+        "projectPath": "C:\\Users\\Decha\\Desktop\\DEV\\DevStarter\\Gursha.Domain\\Gursha.Domain.csproj",
+        "packagesPath": "C:\\Users\\Decha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Decha\\Desktop\\DEV\\DevStarter\\Gursha.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/decha/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Decha\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -37,6 +37,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "ErrorOr": {
+              "target": "Package",
+              "version": "[1.2.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -53,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

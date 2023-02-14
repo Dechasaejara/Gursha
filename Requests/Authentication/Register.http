@@ -1,7 +1,7 @@
 @host = http://localhost:5222
 
 POST {{host}}/auth/register
-Content-Type: application/json
+Content-Type:   application/json
 
 {
     "firstname":"Aron",

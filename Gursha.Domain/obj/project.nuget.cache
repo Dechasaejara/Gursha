@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ajz+0wdtXY8ifm6DInyq5NilQFfZRcFUu64Yl4a1IBbV4qt2816GyAPNA0txFrxhMpS5g5XjWFCq7SHQJNHIzg==",
+  "dgSpecHash": "iX8HSumJDxMEFu/gW8XNplR2a5gUE9VZ5tJCcx6VKe1/e04zvJzgjyXc5MGWWQ5pfJcXxmzvUCRK+nqXt1MJUg==",
   "success": true,
-  "projectFilePath": "/Users/decha/devenv/gursha/Gursha.Domain/Gursha.Domain.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Decha\\Desktop\\DEV\\DevStarter\\Gursha.Domain\\Gursha.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Decha\\.nuget\\packages\\erroror\\1.2.1\\erroror.1.2.1.nupkg.sha512"
+  ],
   "logs": []
 }
